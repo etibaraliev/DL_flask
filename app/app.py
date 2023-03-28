@@ -8,7 +8,7 @@ from sklearn.neural_network import MLPClassifier
 
 np.random.seed(5)
 
-df = pd.read_csv("data/heart.csv")
+df = pd.read_csv("../data/heart.csv")
 
 X = df.drop("target",axis=1)
 y = df["target"]
